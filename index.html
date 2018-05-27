@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" id="viewport" content="width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script>
+        ! function () {
+            var e = screen.width / 750;
+            document.getElementById("viewport").content = "width=750,initial-scale=" + e + ",minimum-scale=" + e +
+                ",maximum-scale=" + e + ",user-scalable=no"
+        }()
+    </script>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+<script src="./scripts/jquery.min.js"></script>
+<script src="./scripts/preload.min.js"></script>
+<script src="./scripts/TweenMax.min.js"></script>
+<script src="./scripts/main.js"></script>
+
+</html>
